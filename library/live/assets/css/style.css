@@ -894,8 +894,7 @@ blockquote {
 }
 
 .font-serif {
-  font-family: Volkhov, "Times New Roman", sans-serif;
-  font-style: italic;
+  font-family: "Roboto Condensed", "Times New Roman", sans-serif;
 }
 
 .large-text {
@@ -918,7 +917,7 @@ blockquote {
 
 .module-subtitle {
   text-align: center;
-  font-size: 16px;
+  font-size: 18px;
   color: #111;
   margin-bottom: 70px;
 }
@@ -1246,7 +1245,7 @@ General Styles - Owlcarousel
   font-family: "Roboto Condensed", sans-serif;
   text-transform: uppercase;
   letter-spacing: 3px;
-  font-size: 11px;
+  font-size: 16px;
   transition: background, padding 0.4s ease-in-out 0s;
 }
 
@@ -1265,7 +1264,7 @@ General Styles - Owlcarousel
 .navbar-custom .navbar-brand {
   letter-spacing: 4px;
   font-weight: 400;
-  font-size: 22px;
+  font-size: 23px;
   color: #fff;
 }
 
@@ -1334,6 +1333,18 @@ General Styles - Owlcarousel
   font-size: 11px;
 }
 
+.navbar-custom .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-time {
+  color: #fff;
+  font-size: 16px;
+  padding: 15px 10px;
+  display: inline-block;
+}
 /* Navbar search
 
 .dropdown-search {
@@ -1371,6 +1382,7 @@ General Styles - Owlcarousel
 .home-section {
   position: relative;
   background-color: #fff;
+  
   background-repeat: no-repeat;
   background-position: center center;
   width: 100%;
